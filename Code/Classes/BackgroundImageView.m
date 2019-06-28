@@ -13,7 +13,7 @@
 - (id)initWithFrame:(NSRect)frame {
     if (self=[super initWithFrame:frame]) {
         myBackgroundColor=[NSColor blackColor];
-        myScaling=NSScaleNone;
+        myScaling=ScaleNone;
         myNameAttributes=[[NSDictionary alloc] initWithObjectsAndKeys:
             [NSColor whiteColor], NSForegroundColorAttributeName,
             [NSColor blackColor], NSBackgroundColorAttributeName,

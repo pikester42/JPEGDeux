@@ -1,5 +1,7 @@
 #import "PrefsManager.h"
 
+#pragma GCC diagnostic ignored "-Wundeclared-selector"
+
 static NSString* const KeyBindingsKey = @"KeyBindings";
 
 enum {
